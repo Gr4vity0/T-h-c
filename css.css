@@ -1,0 +1,55 @@
+body {
+
+}
+body {
+	background-image: url(img/text.jpg);
+	background-repeat: repeat;
+    background-attachment: fixed;
+	font-family: 'Libre Baskerville', serif;
+    margin-top: 70px;
+}
+
+h4, h5 {
+	text-align: center;
+	padding-top: 0.4em;
+	color: rgb(104, 0, 0);
+}
+
+.card {
+	text-align: center;
+		border: 0.3em solid;
+	border-color:  rgb(104, 0, 0);
+	background-image: url(img/metal.jpg);
+}
+
+.card-group {
+	border: 0.5vh solid;
+	border-radius: 0px;
+}
+
+.carousel {
+    max-height: 50% !important;
+}
+
+.carousel-item {
+    max-height: 100%!important;
+}
+
+.carousel-caption {
+	color: black;
+	background-image: url(img/metal.jpg);
+	background-size: cover;
+	border: 0.3em solid;
+	border-color:  rgb(104, 0, 0);
+	font-family: 'Libre Baskerville', serif;
+}
+
+.hr { 
+    background: url('img/logo.png') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 7em;
+    border: 0;
+    position: relative;
+}
+
